@@ -1,0 +1,18 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Admin</mat-card-title>
+    <mat-card-subtitle>Bike #{{bike.id}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-list role="list">
+      <mat-list-item role="listitem"><b>Name</b>&nbsp;{{bike.name}}</mat-list-item>
+      <mat-list-item role="listitem"><b>Email</b>&nbsp;{{bike.email}}</mat-list-item>
+      <mat-list-item role="listitem"><b>Phone</b>&nbsp;{{bike.phone}}</mat-list-item>
+      <mat-list-item role="listitem"><b>Model</b>&nbsp;{{bike.model}}</mat-list-item>
+      <mat-list-item role="listitem"><b>Serial Number</b>&nbsp;{{bike.serialNumber}}</mat-list-item>
+      <mat-list-item role="listitem"><b>Purchase Price</b>&nbsp;{{bike.purchasePrice}}</mat-list-item>
+      <mat-list-item role="listitem"><b>Purchase Date</b>&nbsp;{{bike.purchaseDate}}</mat-list-item>
+    </mat-list>
+    <a mat-raised-button color="primary" routerLink="/admin"><span class="material-icons">arrow_back</span> Back</a>
+  </mat-card-content>
+</mat-card>
